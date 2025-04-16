@@ -1,0 +1,27 @@
+[
+    {
+        "place":"Feeding India",
+        "type":"NGO",
+        "contact":"contact@feedingindia.org"
+    },
+    {
+        "place":"Robin Hood Army",
+        "type":"NGO",
+        "contact":"www.robinhoodarmy.com"
+    },
+    {
+        "place":"Local Community Fridge",
+        "type":"Local",
+        "contact":"Contact your local municipality"
+    },
+    {
+        "place":"School Canteen",
+        "type":"Institution",
+        "contact":"Ask school staff"
+    },
+    {
+        "place":"Neighborhood Food Bank",
+        "type":"Community",
+        "contact":"Visit nearby centers"
+    }
+]

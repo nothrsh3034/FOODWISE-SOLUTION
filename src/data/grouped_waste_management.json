@@ -1,0 +1,32 @@
+[
+    {
+        "category":"vegetables",
+        "example_items":"potato,tomato,onion,carrot,spinach",
+        "suggestion":"Compost vegetable scraps or feed to livestock if fresh. Avoid sending to landfill."
+    },
+    {
+        "category":"fruits",
+        "example_items":"apple,banana,grapes,orange,mango",
+        "suggestion":"Fruits can be composted or turned into bioenzymes or smoothies if not rotten."
+    },
+    {
+        "category":"milk",
+        "example_items":"milk,dairy,yogurt,cheese,butter",
+        "suggestion":" Milk or Dairy product can be used as fertilizer in diluted form or made into milk paint."
+    },
+    {
+        "category":"meat",
+        "example_items":"chicken,fish,beef,mutton",
+        "suggestion":"Meat should not be composted at home; wrap and dispose properly or give to animal shelters if still fresh."
+    },
+    {
+        "category":"egg",
+        "example_items":"egg",
+        "suggestion":"Eggshells can be crushed and added to compost or used in gardening as calcium booster."
+    },
+    {
+        "category":"other",
+        "example_items":"bread,rice,pasta",
+        "suggestion":"Stale bread or cooked rice can be composted or dried and powdered for garden mulch."
+    }
+]
