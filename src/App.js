@@ -92,7 +92,7 @@ function App() {
             mb: 4,
           }}
         >
-          🌱 Sustainable Food System
+          🌱 Sustainable Food Waste Recommendation System
         </Typography>
 
         <TextField
