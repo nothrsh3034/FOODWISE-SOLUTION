@@ -45,7 +45,7 @@ const teamMembers = [
   },
   {
     name: 'Chandni Vekariya', role: 'Sustainability Logic',
-    bio: 'Focuses on Sustainability and food waste management Recommendation Logic.',
+    bio: 'Sustainability,Recipes and Waste management Logic.',
     avatar: '/assets/images/chandani.jpg'
   },
   {
