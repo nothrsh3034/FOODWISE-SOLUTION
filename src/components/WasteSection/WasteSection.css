@@ -1,0 +1,137 @@
+.waste-container {
+  padding: 2rem 0;
+}
+
+.waste-title {
+  margin-bottom: 2rem;
+  color: #2e7d32;
+  text-align: center;
+  font-weight: 600;
+}
+
+.waste-card {
+  margin-bottom: 2rem;
+  border-radius: 12px !important;
+  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.waste-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1) !important;
+}
+
+.waste-header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.waste-type-chip {
+  font-weight: 600 !important;
+  border-width: 2px !important;
+}
+
+.waste-category {
+  color: #555;
+  font-weight: 500;
+}
+
+.waste-suggestion {
+  color: #333;
+  line-height: 1.8;
+  font-size: 1rem;
+}
+
+.waste-divider {
+  background-color: #e0e0e0 !important;
+}
+
+.tips-title {
+  color: #2e7d32;
+  font-weight: 600;
+  margin-bottom: 1rem !important;
+}
+
+.tips-list {
+  padding: 0;
+}
+
+.tip-item {
+  padding-left: 0;
+  padding-right: 0;
+  align-items: flex-start;
+}
+
+.waste-icon {
+  font-size: 1.2rem;
+  min-width: 24px;
+}
+
+.waste-icon.compost {
+  color: #2e7d32;
+}
+
+.waste-icon.recycle {
+  color: #0288d1;
+}
+
+.waste-icon.landfill {
+  color: #757575;
+}
+
+.waste-icon.special {
+  color: #ed6c02;
+}
+
+.waste-icon.default {
+  color: #689f38;
+}
+
+.waste-impact {
+  color: #555;
+  font-style: italic;
+  line-height: 1.6;
+}
+
+.no-waste-info {
+  color: #555;
+  padding: 1.5rem;
+  line-height: 1.6;
+}
+
+.general-waste-tips {
+  margin-top: 2rem;
+  padding: 1.5rem;
+  border-radius: 12px;
+  background-color: #f9f9f9;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .waste-container {
+    padding: 1rem;
+  }
+  
+  .waste-title {
+    font-size: 1.5rem;
+  }
+  
+  .waste-header {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.5rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .waste-title {
+    font-size: 1.3rem;
+  }
+  
+  .waste-suggestion {
+    font-size: 0.95rem;
+  }
+}

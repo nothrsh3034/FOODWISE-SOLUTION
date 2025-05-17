@@ -1,0 +1,64 @@
+.contact-page {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.hero-section {
+  background: linear-gradient(135deg, #2e7d32 0%, #4caf50 100%);
+  color: white;
+  padding: 8rem 2rem;
+  text-align: center;
+  position: relative;
+}
+
+.main-content {
+  flex: 1;
+  padding: 4rem 0;
+}
+
+.form-card, .info-card {
+  height: 100%;
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+.contact-method {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin: 1.5rem 0;
+}
+
+.contact-icon {
+  font-size: 1.5rem;
+  color: #2e7d32;
+}
+
+.social-links {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 3rem;
+}
+
+.social-icon {
+  color: #2e7d32;
+  font-size: 1.5rem;
+  transition: all 0.3s ease;
+}
+
+.social-icon:hover {
+  color: #4caf50;
+  transform: translateY(-3px);
+}
+
+@media (max-width: 768px) {
+  .hero-section {
+    padding: 6rem 1rem;
+  }
+  
+  .main-content {
+    padding: 2rem 1rem;
+  }
+}

@@ -1,0 +1,55 @@
+.about-page {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.hero-section {
+  background: linear-gradient(135deg, #2e7d32 0%, #4caf50 100%);
+  color: white;
+  text-align: center;
+  position: relative;
+}
+
+.main-content {
+  flex: 1;
+  padding: 4rem 0;
+}
+
+.mission-card {
+  margin-bottom: 3rem;
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+.features-section, .team-section {
+  margin: 4rem 0;
+}
+
+.feature-card, .team-card {
+  height: 100%;
+  border-radius: 12px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+}
+
+.feature-card:hover, .team-card:hover {
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+}
+
+.team-avatar {
+  width: 120px;
+  height: 120px;
+  margin: 0 auto 1rem;
+  border: 3px solid #4caf50;
+}
+
+@media (max-width: 768px) {
+  .hero-section {
+    padding: 6rem 1rem;
+  }
+  
+  .main-content {
+    padding: 2rem 1rem !important;
+  }
+}

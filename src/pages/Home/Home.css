@@ -1,0 +1,184 @@
+/* Import Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+.home-page {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  width: 100vw;
+  overflow-x: hidden;
+  background-color: #f5f5f5;
+}
+
+.hero-section {
+  width: 100%;
+  padding: 8rem 2rem;
+  text-align: center;
+  background: linear-gradient(135deg, #2e7d32 0%, #4caf50 100%);
+  color: white;
+  margin-bottom: 3rem;
+  position: relative;
+}
+
+.hero-title {
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+  font-size: 3.5rem;
+  line-height: 1.2;
+  text-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.hero-subtitle {
+  font-weight: 400;
+  font-size: 1.5rem;
+  opacity: 0.9;
+  max-width: 700px;
+  margin: 0 auto;
+  text-align: center;
+  display: block; /* Ensure it takes full width */
+  padding: 0 20px; /* Add some padding on sides */
+}
+
+.main-content {
+  flex: 1;
+  width: 100%;
+  padding: 2rem;
+}
+
+.main-card {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto 3rem;
+  border-radius: 16px !important;
+  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.main-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.15) !important;
+}
+
+.card-title {
+  margin-bottom: 2rem;
+  text-align: center;
+  color: #2e7d32;
+  font-weight: 600;
+}
+
+.action-button {
+  height: 60px;
+  font-weight: 600 !important;
+  font-size: 1.1rem !important;
+  letter-spacing: 0.5px !important;
+  border-radius: 12px !important;
+  transition: all 0.3s ease !important;
+}
+
+.action-button:hover {
+  transform: translateY(-3px) !important;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2) !important;
+}
+
+.stats-section {
+  text-align: center;
+  margin: 4rem 0;
+  padding: 3rem 2rem;
+  background-color: rgba(46, 125, 50, 0.05);
+  border-radius: 16px;
+}
+
+.stats-title {
+  margin-bottom: 3rem;
+  color: #2e7d32;
+  font-weight: 600;
+}
+
+.stat-card {
+  height: 100%;
+  cursor: default;
+}
+
+.stat-number {
+  color: #2e7d32;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+  font-size: 2.5rem;
+}
+
+.stat-label {
+  color: #555;
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+/* Recipe cards */
+.recipe-card {
+  transition: all 0.3s ease;
+}
+
+.recipe-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15) !important;
+}
+
+/* Responsive adjustments */
+@media (max-width: 1200px) {
+  .main-content {
+    padding: 1.5rem;
+  }
+  
+  .hero-title {
+    font-size: 2.8rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .hero-section {
+    padding: 6rem 1rem;
+  }
+  
+  .hero-title {
+    font-size: 2.2rem;
+  }
+  
+  .hero-subtitle {
+    font-size: 1.2rem;
+  }
+  
+  .card-title {
+    font-size: 1.8rem;
+  }
+  
+  .action-button {
+    height: 50px;
+    font-size: 1rem !important;
+  }
+
+  .stats-section {
+    padding: 2rem 1rem;
+  }
+  
+  .stat-number {
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .hero-section {
+    padding: 4rem 1rem;
+  }
+  
+  .hero-title {
+    font-size: 1.8rem;
+  }
+
+  .main-content {
+    padding: 1rem;
+  }
+  
+  .stats-title {
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+  }
+}
