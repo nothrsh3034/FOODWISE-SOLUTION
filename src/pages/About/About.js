@@ -40,12 +40,12 @@ function ScrollTop(props) {
 const teamMembers = [
   {
     name: 'Darshana Sangani', role: 'Frontend Developer & UI-UX Designer',   
-    bio: 'Specializes in React Frontend and UI/UX design.',
+    bio: 'Specializes in Frontend and UI/UX design.',
     avatar: '/assets/images/darshna.jpg'
   },
   {
     name: 'Chandni Vekariya', role: 'Sustainability Logic',
-    bio: 'Sustainability,Recipes and Waste management Logic.',
+    bio: 'Sustainability Logic, Waste & Recipes .',
     avatar: '/assets/images/chandani.jpg'
   },
   {
