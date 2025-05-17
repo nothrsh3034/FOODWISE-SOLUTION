@@ -166,7 +166,7 @@ const Contact = () => {
                     }}>
                       <FaPhone style={{ color: '#2e7d32', fontSize: '1.25rem' }} />
                     </Box>
-                    <Typography>+1 (555) 123-4567</Typography>
+                    <Typography>+91 9265506969</Typography>
                   </Box>
                   
                   <Divider sx={{ my: 3 }} />
@@ -184,7 +184,7 @@ const Contact = () => {
                     }}>
                       <FaMapMarkerAlt style={{ color: '#2e7d32', fontSize: '1.25rem' }} />
                     </Box>
-                    <Typography>123 Green St, Eco City</Typography>
+                    <Typography>123, Sharda Hostel, New VV nagar</Typography>
                   </Box>
 
                   <Box sx={{ mt: 4, textAlign: 'center' }}>
